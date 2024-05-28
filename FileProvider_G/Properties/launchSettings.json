@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FileProvider_G": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7088",
+      "launchBrowser": false
+    }
+  }
+}
