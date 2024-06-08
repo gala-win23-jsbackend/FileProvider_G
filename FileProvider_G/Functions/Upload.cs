@@ -20,7 +20,7 @@ public class Upload(ILogger<Upload> logger, FileService fileService)
         {
             if (req.Form.Files["file"] is IFormFile file)
             {
-                var containerName = !string.IsNullOrEmpty(req.Query["containerName"]) ? req.Query["containerName"].ToString() : "uploads";
+                var containerName = !string.IsNullOrEmpty(req.Query["containerName"]) ? req.Query["containerName"].ToString() : "profiles";
 
                 var fileEntity = new FileEntity
                 {
